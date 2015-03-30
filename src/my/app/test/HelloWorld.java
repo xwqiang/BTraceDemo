@@ -8,7 +8,7 @@ public class HelloWorld {
 		while (true) {
 			Random random = new Random();
 			execute(random.nextInt(400));
-			abc(2222);
+//			abc(2222);
 			//object.execute(random.nextInt(4000));
 		}
 		
@@ -30,7 +30,7 @@ public class HelloWorld {
 			Thread.sleep(sleepTime);
 		} catch (Exception e) {
 		}
-		System.out.println("sle，，，，，，，，，，，，，，ep time is=>"+sleepTime);
+		System.out.println("sleep time is=>"+sleepTime);
 		return 0;
 	}
 }
